@@ -256,6 +256,7 @@ img {
   transform: translateX(0);
   transition: transform 0.3s ease-out;
 }
+
 /* Mental Health Section */
 
 .mental-health-section {
@@ -269,7 +270,7 @@ img {
   background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
 }
 
-.contact-section-header > p {
+.mental-section-header > p {
   font-style: italic;
 }
 
