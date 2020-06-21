@@ -259,17 +259,23 @@ img {
 
 /* Mental Health Section */
 
-.mental-health-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100vh;
-  background-color: #000;
-  background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+.mental-helth-section {
+  text-align: center;
+  padding: 10rem 2rem;
+  background: var(--main-blue);
 }
 
+.mental-health-section-header {
+  max-width: 640px;
+  margin: 0 auto 6rem auto;
+  border-bottom: 0.2rem solid var(--main-white);
+}
+
+@media (max-width: 28.75em) {
+  .mental-health-section-header {
+    font-size: 4rem;
+  }
+}
 .mental-section-header > p {
   font-style: italic;
 }
