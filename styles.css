@@ -144,6 +144,18 @@ img {
   background: var(--main-blue);
 }
 
+ .logo-image{
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -6px;
+}
+
+  .navbar-brand {
+    justify-content: flex-start;
+}
+
 /* Welcome section */
 
 .welcome-section {
